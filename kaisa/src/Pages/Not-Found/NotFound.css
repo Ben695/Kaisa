@@ -1,0 +1,54 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 139px;
+}
+@media (max-width: 767px) {
+  .notfound {
+    gap: 113px;
+  }
+}
+.notfound__title {
+  color: #FF6060;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18rem;
+  font-weight: 700;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .notfound__title {
+    font-size: 96px;
+  }
+}
+.notfound__txt {
+  color: #FF6060;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .notfound__txt {
+    font-size: 18px;
+  }
+}
+.notfound .back-home {
+  color: #FF6060;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  text-decoration-line: underline;
+  margin: 0;
+  padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .notfound .back-home {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=NotFound.css.map */

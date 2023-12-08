@@ -1,0 +1,23 @@
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .about {
+    padding: 19px 0px;
+  }
+}
+.about__accordeon {
+  padding: 38px 108px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .about__accordeon {
+    padding: 0px;
+    gap: 20px;
+    margin-top: 19px;
+  }
+}/*# sourceMappingURL=AboutPage.css.map */

@@ -1,0 +1,83 @@
+.accommodation-details
+    padding-bottom: 50px
+    padding: 0px 20px
+    @media (max-width: 767px)
+        max-width: 335px
+        padding: 0px
+        margin-bottom: 27px
+    &__header
+        position: relative
+    &__title
+        color: #FF6060
+        font-family: Montserrat
+        font-size: 36px
+        font-weight: 500
+        margin: 0
+        padding-top: 30px
+        @media (max-width: 767px)
+            font-size: 18px
+    &__location
+        color: #FF6060
+        font-family: Montserrat
+        font-size: 18px
+        font-weight: 500
+        margin: 0
+        @media (max-width: 767px)
+            font-size: 14px
+    &__name
+        color: #FF6060
+        text-align: right
+        font-family: Montserrat
+        font-size: 18px
+        @media (max-width: 767px)
+            font-size: 12px
+    &__profile
+        position: absolute
+        top: 30%
+        right: 0%
+        display: flex
+        align-content: center
+        justify-content: center
+        gap: 10px
+        @media (max-width: 767px)
+    &__picture
+        width: 64px
+        height: 64px
+        border-radius: 100%
+        @media (max-width: 767px)
+            width: 32px
+            height: 32px
+    &__tags
+        padding-top: 20px
+        padding-bottom: 24px
+    &__tag
+        height: 25px
+        border-radius: 10px
+        background: #FF6060
+        color: #FFF
+        text-align: center
+        font-family: Montserrat
+        font-size: 14px
+        font-weight: 500
+        padding: 3px 37px
+        margin-right: 10px
+        @media (max-width: 767px)
+            font-size: 10px
+            margin-right: 0
+    &__infos
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @media (max-width: 767px)
+    &__accordeons
+        display: flex
+        justify-content: space-between
+        gap: 76px
+        padding-bottom: 30px
+        @media (max-width: 767px)
+            flex-direction: column
+            gap: 20px
+        .accordeon
+            flex: 1
+        &:last-child
+            margin-right: 0

@@ -1,0 +1,44 @@
+.accordeon
+    &__title
+        color: #FFF
+        font-family: Montserrat
+        font-size: 18px
+        font-style: normal
+        font-weight: 500
+        padding: 10px
+        margin: 0
+        @media (max-width: 767px)
+            font-size: 13px
+    &__header
+        border-radius: 10px
+        background: var(--Red, #FF6060)
+        padding: 10px 20px 10px 10px
+        cursor: pointer
+        display: flex
+        justify-content: space-between
+        list-style: none
+        @media (max-width: 767px)
+            padding: 0px
+    &__arrow
+        transition: transform 0.3s ease-in-out
+        @media (max-width: 767px)
+            width: 32px
+            height: 32px
+    &__content
+        padding: 10px 20px 19px 20px
+        border-radius: 5px
+        background: var(--Gray, #F6F6F6)
+        color: #FF6060
+        font-family: Montserrat
+        font-size: 18px
+        font-weight: 400
+        overflow: hidden
+        transition: max-height 0.5s ease-in-out
+        list-style-type: none
+        ul
+            margin: 0
+            padding: 0
+        li
+            list-style-type: none
+    &[open] > .accordeon__header > .accordeon__arrow
+        transform: rotate(180deg)
