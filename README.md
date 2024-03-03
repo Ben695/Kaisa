@@ -2,7 +2,7 @@
 
 ## À propos du projet
 
-Kasa est une application web révolutionnaire conçue pour transformer l'expérience de la location immobilière. Grâce à React, nous avons développé une plateforme dynamique et intuitive qui permet aux utilisateurs de naviguer facilement parmi une large sélection de propriétés à louer. Notre objectif est de simplifier le processus de location tout en offrant une expérience utilisateur enrichissante.
+Kasa est une application web conçue pour transformer l'expérience de la location immobilière. Grâce à React, nous avons développé une plateforme dynamique et intuitive qui permet aux utilisateurs de naviguer facilement parmi une large sélection de propriétés à louer. Notre objectif est de simplifier le processus de location tout en offrant une expérience utilisateur enrichissante.
 
 ## Fonctionnalités Principales
 
@@ -28,7 +28,7 @@ Pour démarrer avec ce projet, suivez les étapes ci-dessous :
 1. **Clonez le dépôt**
 
     ```bash
-    git clone URL_DU_REPO
+    git clone https://github.com/Ben695/Kaisa.git
     ```
 
 2. **Installez les dépendances**
